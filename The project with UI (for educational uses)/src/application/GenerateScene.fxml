@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GenerateSceneController">
+   <children>
+      <Label layoutX="12.0" layoutY="162.0" prefHeight="44.0" prefWidth="306.0" text="CPU Bursts Range" AnchorPane.leftAnchor="12.0">
+         <font>
+            <Font name="Open Sans Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="231.0" prefHeight="44.0" prefWidth="306.0" text="IO Bursts Range" AnchorPane.leftAnchor="12.0">
+         <font>
+            <Font name="Open Sans Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="302.0" prefHeight="44.0" prefWidth="199.0" text="Priority" AnchorPane.leftAnchor="12.0">
+         <font>
+            <Font name="Open Sans Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="367.0" prefHeight="44.0" prefWidth="199.0" text="Arrival time" AnchorPane.leftAnchor="12.0">
+         <font>
+            <Font name="Open Sans Bold" size="19.0" />
+         </font>
+      </Label>
+      <HBox layoutX="6.0" layoutY="8.0" prefHeight="44.0" prefWidth="586.0" AnchorPane.leftAnchor="12.0" AnchorPane.rightAnchor="7.600000000000023">
+         <children>
+            <Label prefHeight="44.0" prefWidth="199.0" text="Processes number">
+               <font>
+                  <Font name="Open Sans Bold" size="19.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="processesNumber" focusColor="#342b2b" labelFloat="true" text="100" unFocusColor="#cf3232">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </HBox>
+      <HBox layoutX="8.0" layoutY="57.0" prefHeight="54.0" prefWidth="586.0" AnchorPane.leftAnchor="12.0" AnchorPane.rightAnchor="6.0">
+         <children>
+            <Label prefHeight="39.0" prefWidth="200.0" text="DOM">
+               <font>
+                  <Font name="Open Sans Bold" size="19.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="DOM" focusColor="#342b2b" labelFloat="true" text="20" unFocusColor="#cf3232">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </HBox>
+      <HBox layoutX="7.0" layoutY="103.0" prefHeight="54.0" prefWidth="600.0" AnchorPane.leftAnchor="12.0">
+         <children>
+            <Label prefHeight="44.0" prefWidth="201.0" text="Bursts number">
+               <font>
+                  <Font name="Open Sans Bold" size="19.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="burstsNumbre" focusColor="#342b2b" labelFloat="true" text="100" unFocusColor="#cf3232">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </HBox>
+      <JFXTextField fx:id="minCPU" focusColor="#342b2b" labelFloat="true" layoutX="200.0" layoutY="164.0" prefHeight="39.0" prefWidth="55.0" promptText="min" text="10" unFocusColor="#cf3232">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="maxCPU" focusColor="#342b2b" labelFloat="true" layoutX="270.0" layoutY="164.0" prefHeight="39.0" prefWidth="55.0" promptText="max" text="100" unFocusColor="#cf3232">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="minIO" focusColor="#342b2b" labelFloat="true" layoutX="200.0" layoutY="229.0" prefHeight="39.0" prefWidth="55.0" promptText="min" text="500" unFocusColor="#cf3232">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="maxIO" focusColor="#342b2b" labelFloat="true" layoutX="270.0" layoutY="229.0" prefHeight="39.0" prefWidth="55.0" promptText="max" text="1000" unFocusColor="#cf3232">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="minPrio" focusColor="#342b2b" labelFloat="true" layoutX="200.0" layoutY="299.0" prefHeight="39.0" prefWidth="55.0" promptText="min" text="0" unFocusColor="#cf3232">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="maxPrio" focusColor="#342b2b" labelFloat="true" layoutX="270.0" layoutY="299.0" prefHeight="39.0" prefWidth="55.0" promptText="max" text="7" unFocusColor="#cf3232">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="minArrival" focusColor="#342b2b" labelFloat="true" layoutX="200.0" layoutY="367.0" prefHeight="39.0" prefWidth="55.0" promptText="min" text="0" unFocusColor="#cf3232">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="maxArrival" focusColor="#342b2b" labelFloat="true" layoutX="270.0" layoutY="367.0" prefHeight="39.0" prefWidth="55.0" promptText="max" text="70" unFocusColor="#cf3232">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="alpha" focusColor="#342b2b" labelFloat="true" layoutX="427.0" layoutY="275.0" prefHeight="39.0" prefWidth="55.0" promptText="Alpha" text="0.5" unFocusColor="#cf3232">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="generateButton" layoutX="427.0" layoutY="344.0" onAction="#generateFunction" prefHeight="44.0" prefWidth="145.0" style="-fx-background-color: #0000ff;" text="Generate" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="tau" focusColor="#342b2b" labelFloat="true" layoutX="517.0" layoutY="275.0" prefHeight="39.0" prefWidth="55.0" promptText="Tau" text="50" unFocusColor="#cf3232">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="contextSwitchText" focusColor="#342b2b" labelFloat="true" layoutX="426.0" layoutY="205.0" prefHeight="39.0" prefWidth="146.0" promptText="Context Switch" text="2" unFocusColor="#cf3232">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+   </children>
+</AnchorPane>

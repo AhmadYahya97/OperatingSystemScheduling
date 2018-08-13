@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="552.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.initialStateController">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="400.0" prefWidth="552.0">
+         <children>
+            <JFXTreeTableView fx:id="table" onMouseReleased="#showBursts" prefHeight="400.0" prefWidth="294.0" />
+            <ScrollPane hbarPolicy="NEVER" layoutX="294.0" layoutY="45.0" prefHeight="354.0" prefWidth="257.0">
+               <content>
+                  <VBox fx:id="vbox" prefHeight="352.0" prefWidth="255.0" />
+               </content>
+            </ScrollPane>
+            <Label layoutX="299.0" layoutY="8.0" prefHeight="31.0" prefWidth="132.0" text="Bursts">
+               <font>
+                  <Font name="Open Sans Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="377.0" layoutY="6.0" text="Waiting Time = " />
+            <Label layoutX="377.0" layoutY="26.0" text="Turnaround Time = " />
+            <Label fx:id="waitLabel" layoutX="464.0" layoutY="6.0" text="not set" />
+            <Label fx:id="taLabel" layoutX="486.0" layoutY="26.0" text="not set" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
