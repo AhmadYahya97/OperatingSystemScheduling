@@ -55,5 +55,5 @@ The implemented algorithms:
 - Hamed Hijazi.
 ## Special thanks
 - For prof. Adnan Yahya on his amazing efforts during this course!.
-- Jfoenix for its flexible and stylish tools.
+- Jfoenix library for its flexible and stylish tools.
 
