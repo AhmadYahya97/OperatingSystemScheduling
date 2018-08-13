@@ -15,3 +15,5 @@ The implemented algorithms:
  - Shortest Remaining Time
  - Priority Scheduling
  - Round Robin - RR Scheduling
+
+![Alt text](/Screenshots/generatingJobs.PNG?raw=true "Optional Title")
