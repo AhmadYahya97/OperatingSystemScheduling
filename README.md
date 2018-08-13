@@ -53,4 +53,7 @@ The implemented algorithms:
 ## Authors
 - Ahmad Yahya. ( @AhmadYahya97 )
 - Hamed Hijazi.
+## Special thanks
+- For prof. Adnan Yahya on his amazing efforts during this course!.
+- Jfoenix for its flexible and stylish tools.
 
