@@ -50,3 +50,7 @@ The implemented algorithms:
 ![Alt text](/Screenshots/pickingAnAlgo.PNG?raw=true "Picking an algorithm")
 ### Animation mode
 ![Alt text](/Screenshots/screenshotInAnimatingMode.PNG?raw=true "Animation mode")
+## Authors
+- Ahmad Yahya. (@AhmadYahya97)
+- Hamed Hijazi.
+
