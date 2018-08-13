@@ -1,4 +1,5 @@
 
+
 # Operating System Scheduling
 This is Operating Systems project. 
 The project idea is to generate a randomly uniform steam of jobs as the first stage.
@@ -16,4 +17,12 @@ The implemented algorithms:
  - Priority Scheduling
  - Round Robin - RR Scheduling
 
-![Alt text](/Screenshots/generatingJobs.PNG?raw=true "Optional Title")
+# Screenshots
+## Initial screen
+![Alt text](/Screenshots/initialScreen.PNG?raw=true "Initial Screen")
+## Jobs uniform generation
+![Alt text](/Screenshots/generatingJobs.PNG?raw=true "Jobs uniform generation")
+## Picking an algorithm
+![Alt text](/Screenshots/pickingAnAlgo.PNG?raw=true "Picking an algorithm")
+## Animation mode
+![Alt text](/Screenshots/screenshotInAnimatingMode.PNG?raw=true "Animation mode")
