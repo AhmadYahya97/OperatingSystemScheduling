@@ -17,12 +17,12 @@ The implemented algorithms:
  - Priority Scheduling
  - Round Robin - RR Scheduling
 
-# Screenshots
-## Initial screen
+## Screenshots
+### Initial screen
 ![Alt text](/Screenshots/initialScreen.PNG?raw=true "Initial Screen")
-## Jobs uniform generation
+### Jobs uniform generation
 ![Alt text](/Screenshots/generatingJobs.PNG?raw=true "Jobs uniform generation")
-## Picking an algorithm
+### Picking an algorithm
 ![Alt text](/Screenshots/pickingAnAlgo.PNG?raw=true "Picking an algorithm")
-## Animation mode
+### Animation mode
 ![Alt text](/Screenshots/screenshotInAnimatingMode.PNG?raw=true "Animation mode")
