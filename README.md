@@ -51,6 +51,6 @@ The implemented algorithms:
 ### Animation mode
 ![Alt text](/Screenshots/screenshotInAnimatingMode.PNG?raw=true "Animation mode")
 ## Authors
-- Ahmad Yahya. (@AhmadYahya97)
+- Ahmad Yahya. ( @AhmadYahya97 )
 - Hamed Hijazi.
 
