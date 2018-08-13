@@ -24,8 +24,8 @@ The implemented algorithms:
  - The student can visualize the job queue, device queue and ready queue.
  - The visualizing of the queue is done time unit by time unit so he/she can catch everything.
  - There's a log window which shows all the changes in every time unit.
- - There's also changes windows which logs up all the changes in a job burst.
- - There's mainly three options in tracking an algorithm:
+ - There's also changes window which logs up all the changes in a job burst.
+ - There are mainly three options in tracking an algorithm:
 	 1. Next Step: moves to the next time unit. 
 	 2. Next Change: moves to the next change (a change in any queue).
 	 3. Animation: which is adjusted by a speed bar.
@@ -40,7 +40,7 @@ The implemented algorithms:
 	 6. Arrival time range.
 	 7. The context switch.
 	 8. Tau and Alpha. (if needed)
--  There's two progress bars, one for the current burst of the job in the running state. and the other for the total progress of this job.
+-  There are two progress bars, one for the current burst of the job in the running state. and the other for the total progress of this job.
 ## Screenshots
 ### Initial screen
 ![Alt text](/Screenshots/initialScreen.PNG?raw=true "Initial Screen")
