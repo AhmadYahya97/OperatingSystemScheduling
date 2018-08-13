@@ -16,6 +16,7 @@ The implemented algorithms:
  - Shortest Remaining Time
  - Priority Scheduling
  - Round Robin - RR Scheduling
+ - Exponential Average SRJF
 
 ## Screenshots
 ### Initial screen
