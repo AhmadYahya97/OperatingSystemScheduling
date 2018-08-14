@@ -3,7 +3,7 @@
 
 # Operating System Scheduling
 This is Operating Systems project. 
-The project idea is to generate a randomly uniform srteam of jobs as the first stage.
+The project idea is to generate a randomly uniform stream of jobs as the first stage.
 Then in the second stage we will pick a scheduling algorithms out of the most 6 commonly used algorithms.
 after this we will make a comparison of which algorithm performed better on which data.
 
