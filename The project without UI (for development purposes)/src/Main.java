@@ -1,10 +1,7 @@
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
-import com.sun.prism.shader.FillCircle_LinearGradient_REFLECT_AlphaTest_Loader;
 
-import javafx.application.Platform;
-import javafx.geometry.Pos;
 
 public class Main {
 
@@ -12,9 +9,9 @@ public class Main {
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println("Enter the contix switch u nibber fucker ");
+		System.out.println("Enter the context switch");
 
-		int contix = scan.nextInt();
+		int context = scan.nextInt();
 
 		System.out.println("enter the # of processes: ");
 
@@ -112,7 +109,7 @@ public class Main {
 
 		// FCFS object
 		FirstComeFirstServed FCFSObject = new FirstComeFirstServed(jobQueueInst1, new LinkedList<Process>(),
-				new LinkedList<Process>(), degreeOfMP,contix);
+				new LinkedList<Process>(), degreeOfMP,context);
 
 		ShortestJobFirst SJFObject = new ShortestJobFirst(jobQueueInst2,
 				new PriorityQueue<Process>(numberOfTotalProcesses, new SortByShortestCPUBurst()),
@@ -132,7 +129,7 @@ public class Main {
 
 		ExponentialAveraging expAveraging = new ExponentialAveraging(jobQueueInst6,
 				new PriorityQueue<Process>(numberOfTotalProcesses, new SortByExpAveraging()), new LinkedList<Process>(),
-				degreeOfMP, alpha,contix);
+				degreeOfMP, alpha, context);
 		// ... (here goes the other 4 algorithms.)
 		// --------------------------------------------
 
